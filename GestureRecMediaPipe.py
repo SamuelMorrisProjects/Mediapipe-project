@@ -15,7 +15,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_holistic = mp.solutions.holistic
 cap = cv2.VideoCapture(0)
 
-#model_path = r"C:\Users\sam71\OneDrive\Desktop\Computer science\Personal Projects\Neural\New folder\gesture_recognizer.task"
+
 print("This program requires the google hand gesture recognizer to function or a similar equivalent.\nThe hand gesture recognizer can be dowloaded at this url: https://storage.googleapis.com/mediapipe-models/gesture_recognizer/gesture_recognizer/float16/latest/gesture_recognizer.task\n\nWorks best in strong light behind a defined background.\n\n")
 model_path = input("Input the recognizer model path (Do not include quotes): ")
 
