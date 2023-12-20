@@ -3,7 +3,7 @@ import cv2
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
  
-print("Finished importing dependencies!\n\nThis was developed by Samuel Morris and is a demo of ML powered hand recongtion using Mediapipe and google's gesture model recognizer\n\nThe code can be made available upon request, if you have any questions feel free to email me at samuelmorris333221@gmail.com")
+
 
 BaseOptions = mp.tasks.BaseOptions
 GestureRecognizer = mp.tasks.vision.GestureRecognizer
